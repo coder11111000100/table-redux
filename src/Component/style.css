@@ -1,0 +1,26 @@
+.stylePointer {
+    cursor: pointer;
+    justify-content: center;
+}
+
+.tableStyle {
+    margin:  50px auto;
+    
+}
+.tStyle {
+    border: 1px solid grey;
+    text-align: center;
+    padding: 10px;
+}
+
+.tStyle:hover {
+    z-index: 2;
+    color: #0a58ca;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
+.rowColumn {
+    display: flex;
+  flex-direction: row;
+}
